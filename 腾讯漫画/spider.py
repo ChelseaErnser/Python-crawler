@@ -114,3 +114,4 @@ def get_chapter_pics(self, url):
         pic.pop('width')
         pic.pop('height')
     return pics
+ 
