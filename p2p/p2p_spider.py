@@ -1,5 +1,5 @@
 '''
-爬取P2p 网贷之家的各项数据
+爬取P2p*网贷之家的各项数据
     列表页：http://www.wdzj.com/dangan/
     详情页：http://www.wdzj.com/dangan/(keyword)/
 
@@ -225,3 +225,4 @@ with open('data/22.json', 'r') as f:
             print(ext_data)
         else:
             print('{}页解析下载失败'.format(info['url']))
+ 
